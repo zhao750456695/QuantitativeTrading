@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\code\quant\BackTraderCN\cpp\demo.ctp\CtpDaemon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\quant\BackTraderCN\cpp\demo.ctp\CtpMD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\quant\BackTraderCN\cpp\demo.ctp\CtpTD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\code\quant\BackTraderCN\cpp\demo.ctp\CtpMD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\quant\BackTraderCN\cpp\demo.ctp\CtpTD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\code\quant\BackTraderCN\cpp\demo.ctp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FD59BE53-50A5-3F2C-9BF3-F5FA6BBC85EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3F2B1B27-5560-37B4-8109-AEDE4FCB0AA2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

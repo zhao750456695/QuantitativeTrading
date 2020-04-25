@@ -1,0 +1,10 @@
+^E:\CODE\QUANT\BACKTRADERCN\CPP\BUILD\CMAKEFILES\653E902FE325C5C4E893FBF5D132CD16\GENERATE.STAMP.RULE
+setlocal
+D:\programfiles\cmake\bin\cmake.exe -SE:/code/quant/BackTraderCN/cpp -BE:/code/quant/BackTraderCN/cpp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/code/quant/BackTraderCN/cpp/build/BackTraderCN.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
